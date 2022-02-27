@@ -206,6 +206,11 @@ margin-bottom: 30px;
 
 }
 
+.table__text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+
 .feinman {
   position: relative;
   min-height: 890px;
@@ -261,6 +266,7 @@ margin-bottom: 30px;
 }
 
 .kaufman {
+  margin: 0;
   background-color: #1f1f1f;
   text-align: center;
   overflow: hidden;
@@ -277,6 +283,7 @@ margin-bottom: 30px;
   z-index: -1;
   width: 877px;
   height: 877px;
+  background-size: cover;
   background-image:url(../images/kaufman-triangle.svg);
 
 }
@@ -295,7 +302,7 @@ margin-bottom: 30px;
 }
 
 .table_theme_dark {
-  margin-bottom: 90px;
+  margin: 0 auto;
   z-index: 1;
 
 }

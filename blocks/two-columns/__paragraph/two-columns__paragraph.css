@@ -1,0 +1,9 @@
+.two-columns__paragraph {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.two-columns__paragraph:not(:last-child) {
+margin-bottom: 30px;
+}

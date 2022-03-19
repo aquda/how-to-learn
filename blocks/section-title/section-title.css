@@ -4,5 +4,7 @@
   font-weight: bold;
   max-width: 60%;
   margin: 0 auto 20px;
+  position: relative;
+  z-index: 2;
 
 }

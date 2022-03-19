@@ -2,7 +2,7 @@
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  height: 250px;
+  min-height: 250px;
   justify-content: space-between;
 
 }
